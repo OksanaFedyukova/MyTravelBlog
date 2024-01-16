@@ -1,4 +1,12 @@
 <% layout('layouts/boilerplate')%>
+
+<!-- <form action="/search" method="GET">
+  <div class="form-group" class="col-md-8">
+    <label for="searchInput">Search:</label>
+    <input type="text" class="form-control" id="searchInput" name="query" placeholder="Enter search query" >  <button type="submit" class="btn btn-primary">Search</button>
+
+  </div>
+</form> -->
 <div id="cluster-map"></div>
 <div class="container">
   <h1>All Cities</h1>
@@ -21,7 +29,7 @@
         <div class="card-body">
           <h5 class="card-title"><%= city.title %></h5>
 
-          <p class="card-text"><%= city.description %></p>
+          <p class="card-text"><%= city.description.substring(0, 200) %></p>
           <p class="card-text">
             <small class="text-muted"><%= city.location%></small>
           </p>

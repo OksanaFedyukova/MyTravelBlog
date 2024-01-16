@@ -24,5 +24,6 @@ router.route('/:id')
 router.get('/:id/edit', isLoggedIn, isAuthor, catchAsync(cities.renderEditForm))
 
 
+  
 
 module.exports = router;
