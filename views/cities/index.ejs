@@ -29,13 +29,15 @@
         <div class="card-body">
           <h5 class="card-title"><%= city.title %></h5>
 
-          <p class="card-text"><%= city.description.substring(0, 200) %></p>
+          <p class="card-text"><%= city.description.substring(0, 200) %>        <span class="badge badge-primary" style="background-color: rgb(118, 118, 175);" >...</span>
+          </p>
           <p class="card-text">
             <small class="text-muted"><%= city.location%></small>
           </p>
-          <a class="btn btn-primary" href="/cities/<%=city._id%>"
-            >View <%=city.title%></a
-          >
+          <a class="btn btn-primary" href="/cities/<%=city._id%>">
+            Read More about <%=city.title%> and Reviews
+        </a>
+        
         </div>
       </div>
     </div>
