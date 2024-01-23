@@ -10,7 +10,7 @@ My TravelBlog is a web application that allows users to explore the cities I've 
 - **Messaging**: Leave messages or comments on posts.
 
 ## Installation
-1. Clone the repository: `git clone https://github.com/your-username/travel-blog.git`
+1. Clone the repository: `git clone https://github.com/OksanaFedyukova/travel-blog.git`
 2. Navigate to the project directory: `cd travel-blog`
 3. Install dependencies: `npm install`
 4. Create a `.env` file and add the necessary environment variables (see below).
