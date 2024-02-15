@@ -103,4 +103,9 @@
     text-shadow: none;
 }
 
-  
+.color-ingr {
+  background: linear-gradient(45deg, rgba(216, 183, 161, 1),  rgba(29, 152, 156, 1) 80%) !important; 
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
+
+}
